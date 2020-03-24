@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a3a9875-54c4-485e-b1c2-007a7394db35" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/DoubleLinkedListDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/JosephuDemo.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/DoubleLinkedListDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/DoubleLinkedListDemo.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,20 +31,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DoubleLinkedListDemo.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/DoubleLinkedListDemo.scala">
+      <file leaf-file-name="ArrayQueueDemo.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/queue/ArrayQueueDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="144">
+              <caret line="9" column="17" selection-end-line="114" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoubleLinkedList.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../scala-2.11.8/lib/scala-library.jar!/scala/collection/mutable/DoubleLinkedList.class">
+      <file leaf-file-name="CircleArrayDemo.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/queue/CircleArrayDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="240">
+              <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JosephuDemo.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/JosephuDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -58,6 +68,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="K &lt;1843321157@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -69,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/queue/CircleArrayDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/SingleLinkedListDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/DoubleLinkedListDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/JosephuDemo.scala" />
       </list>
     </option>
   </component>
@@ -92,14 +108,15 @@
     <option name="width" value="1131" />
     <option name="height" value="1044" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,10 +159,20 @@
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -171,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CircleArrayDemo">
+  <component name="RunManager" selected="Application.JosephuDemo">
     <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.datastructure.queue.ArrayQueueDemo" />
       <module name="datastructure" />
@@ -190,6 +217,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atguigu.datastructure.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="JosephuDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.datastructure.linkedlist.JosephuDemo" />
+      <module name="datastructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.datastructure.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,9 +288,11 @@
       <item itemvalue="Application.SparseArrayDemo" />
       <item itemvalue="Application.ArrayQueueDemo" />
       <item itemvalue="Application.CircleArrayDemo" />
+      <item itemvalue="Application.JosephuDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JosephuDemo" />
         <item itemvalue="Application.CircleArrayDemo" />
         <item itemvalue="Application.ArrayQueueDemo" />
         <item itemvalue="Application.SparseArrayDemo" />
@@ -271,12 +311,21 @@
       <updated>1584799420071</updated>
       <workItem from="1584799422310" duration="972000" />
       <workItem from="1584851970108" duration="17572000" />
-      <workItem from="1584950632571" duration="6711000" />
+      <workItem from="1584950632571" duration="8316000" />
+      <workItem from="1585053550587" duration="2479000" />
     </task>
+    <task id="LOCAL-00001" summary="双向链表">
+      <created>1584971616187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584971616187</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25255000" />
+    <option name="totallyTimeSpent" value="29339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,23 +337,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="531" y="0" width="754" height="696" extended-state="0" />
+    <frame x="616" y="1" width="754" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290441" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33457944" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296501" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.23364486" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32897195" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290441" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.37424242" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.38505748" />
       <window_info anchor="right" id="Database" order="3" weight="0.32983023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -318,7 +368,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +376,32 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="双向链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="双向链表" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/DoubleLinkedListDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/queue/ArrayQueueDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="17" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/queue/CircleArrayDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -392,20 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/queue/ArrayQueueDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="17" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/queue/CircleArrayDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1536">
-          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/SingleLinkedListDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -415,15 +475,36 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../scala-2.11.8/lib/scala-library.jar!/scala/collection/mutable/DoubleLinkedList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/DoubleLinkedListDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="320">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/queue/ArrayQueueDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="17" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/queue/CircleArrayDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="99" column="7" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/datastructure/linkedlist/JosephuDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -48,12 +48,12 @@ class Josephu{
         //first指向了要删除的小孩
         printf("小孩no=%d出圈\n",helper.next.no)
         helper.next = helper.next.next
+        //判断是否是最后一个孩子
+        if(helper == helper.next){
+          break()
+        }
+      }
 
-      }
-      //判断是否是最后一个孩子
-      if(helper == helper.next){
-        break()
-      }
     }
     printf("最后留在圈中的小孩是no=%d\n",helper.no)
   }
@@ -91,11 +91,12 @@ class Josephu{
         printf("小孩no=%d出圈\n",first.no)
         first = first.next
         helper.next = first
+        //判断是否是最后一个孩子
+        if(first == helper){
+          break()
+        }
       }
-      //判断是否是最后一个孩子
-      if(first == helper){
-        break()
-      }
+
     }
     printf("最后留在圈中的小孩是no=%d\n",first.no)
   }

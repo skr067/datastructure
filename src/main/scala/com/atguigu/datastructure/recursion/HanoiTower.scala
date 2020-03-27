@@ -3,7 +3,7 @@ package com.atguigu.datastructure.recursion
 //汉诺塔递归
 object HanoiTower {
   def main(args: Array[String]): Unit = {
-    hanoiTower(3,'A','B','C')
+    hanoiTower(10,'A','B','C')
   }
 
   /**
